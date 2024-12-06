@@ -1,5 +1,5 @@
 let numerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = numAleatorio();
 let tentativas = 1;
 
@@ -11,7 +11,7 @@ function textoNaTela(tag, texto){
 
 function mensagemInicial(){
     textoNaTela("h1", "Jogo do número secreto 2.0")
-    textoNaTela("p", "Escolha um número de 1 a 10")
+    textoNaTela("p", "Escolha um número de 1 a 100")
 }
 
 
